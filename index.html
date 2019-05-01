@@ -1,0 +1,447 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sirine Baba Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <script src="jquery.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <style>
+  body {
+    position: relative; 
+  }
+  #section1 {padding-top:50px;height:600px; background-color: #fff;background-image: url("Section1.jpg");} 
+  #section2 {margin: 3em;padding-top:50px;height:730px;background-color: #fff;}
+  #section3 {padding-top:50px;height:700px; background-color: #fff;background-image: url("Section1.jpg");}
+  #section4 {padding-top:50px;height:700px; background-color: #fff;}
+  #section41 {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #section42 {padding-top:50px;height:500px;color: #fff; background-color: #009688;}
+  #image {
+    height:430px;
+    background-image: url("Graduation.jpg");
+    float: right; 
+    width: 40%; 
+    margin: 2em;
+    margin-top: 7em;
+    background-repeat:no-repeat;
+    }
+    #icons{
+      font-size:38px;
+      color:#c7254e;
+      padding-left:20px;
+      }
+  #skill1 {
+
+    height:23%;
+    width: 40%;
+    zoom: 0.7;
+  
+  }   
+  #skill2 {
+    background-image: url("Skill2.png");
+    height:23%;
+    width: 40%;
+    zoom: 0.7;
+  } 
+  #skill3 {
+    background-image: url("Skill3.png");
+    height:23%;
+    width: 40%;
+    zoom: 0.7;
+  } 
+  #skill1Span {
+    top: 100px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+  }
+  .container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.skillsImageA {
+  padding-left: 3%;
+  padding-right: 4%;
+  font-size: 20px;
+  background-image: url("Test.png");
+  background-repeat:no-repeat;
+  height:20%;
+    width: 20%;
+    zoom: 0.3;
+}
+.skillsImageB {
+  padding-left: 3%;
+  padding-right: 4%;
+  font-size: 20px;
+  background-image: url("Test2.png");
+  background-repeat:no-repeat;
+  height:20%;
+    width: 20%;
+    zoom: 0.3;
+}
+.skillsImageC {
+  padding-left: 3%;
+  padding-right: 4%;
+  font-size: 20px;
+  background-image: url("Test3.png");
+  background-repeat:no-repeat;
+  height:20%;
+    width: 20%;
+    zoom: 0.3;
+}
+.skillsImage2A {
+  padding-left: 3%;
+  padding-right: 4%;
+  font-size: 20px;
+  background-image: url("Test4.png");
+  background-repeat:no-repeat;
+    zoom: 0.3;
+    height:50%;
+    
+}
+.skillsImage2B {
+  padding-left: 3%;
+  padding-right: 4%;
+  font-size: 20px;
+  background-image: url("Test5.png");
+  background-repeat:no-repeat;
+    zoom: 0.3;
+    
+}
+#project1:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2); 
+  
+}
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Sirine Portfolio</a>
+    </div>
+    <div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li style=" position: absolute;left: 52%;"><a href="#section1">Home</a></li>
+          <li style=" position: absolute;left: 60%;"><a href="#section2">Experience</a></li>
+          <li style=" position: absolute;left: 70%;"><a href="#section3">Skills</a></li>
+          <li style=" position: absolute;left: 78%;"><a href="#section4">Projects</a></li>
+          <!--<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#section41">Section 4-1</a></li>
+              <li><a href="#section42">Section 4-2</a></li>
+            </ul>
+          </li>-->
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>    
+
+<div id="section1" class="container-fluid" style = "overflow: hidden;">
+
+  <p id = "image"> </p>
+  <div style = "float: right; width: 42%; margin: 3em;padding-top:30px;">
+    <h1 style = "color: #c7254e;">Sirine Baba</h1>
+    <h3></h3>
+    <p>I am a web and mobile developer in love with programming, gymnastics and travel.</p>
+    <p>Building a user-friendly websites and applications is a truly a passion of mine.</p>
+    <p>I have experiences in coding websites using modern technologies</p>
+    <br />
+    <i class="fa fa-phone" id="icons"></i>&nbsp;&nbsp;(+961)71735679<br /><br />
+    <i class="fa fa-calendar" id="icons"></i>&nbsp;&nbsp;22 August 1996<br /><br />
+    <i class="fa fa-home" id="icons"></i>&nbsp;&nbsp;Beirut-Lebanon<br /><br />
+    <i class="fa fa-envelope" id="icons"></i>&nbsp;&nbsp;snb15@mail.aub.edu<br /><br />
+  </div>
+</div>
+<div id="section2" class="container-fluid">
+  <br />
+  <div style = "overflow: hidden;">
+      <h2 style = "float: left;color: #c7254e;">AUBMC IT MCPS</h1>
+      <h2 style = "float: right;">Beirut, Lebanon</h2>
+  </div>
+  <div style = "overflow: hidden;">
+    <i style = "float: left;">Clinical Applications Specialist</i>
+    <p style = "float: right;">September 2018 – Present</p>
+</div>
+  <ul>
+  <li>Collect and Store data for new departments newly moving to electronic solutions (codes of tests performed in the hospital)</li>
+  <li>Work with software vendors to solve issues provided by the users.</li>
+  <li>Testing projects after updates</li>
+  <li>Write configurations and queries (MS sql server)</li>
+  <li>Handle JavaScript project and updates</li>
+  <li>Provide support for end users, provide training on clinical applications(CPOE/EHR/IPass…) for new employees and take requests of users</li>
+</ul>
+  <br />
+
+  <div style = "overflow: hidden;">
+    <h2 style = "float: left;color: #c7254e;">AUBMC IT MCPS</h1>
+    <h2 style = "float: right;">Beirut, Lebanon</h2>
+  </div>
+  <div style = "overflow: hidden;">
+  <i style = "float: left;">Junior Programmer Analyst</i>
+  <p style = "float: right;">September 2017 - September 2018</p>
+  </div>
+  <ul>
+  <li>Modify existing software project to upgrade interfaces and correct errors</li>
+  <li>Collect and Store data for new departments newly moving to electronic solutions (codes of tests performed in the hospital)</li>
+  <li>Work on many development tasks for different clinical applications projects.(C#)</li>
+  <li>Write configurations and queries (MS sql server)</li>
+  <li>Handle JavaScript project and updates</li>
+  </ul>
+  <br />
+
+  <div style = "overflow: hidden;">
+    <h2 style = "float: left;color: #c7254e;">AUBMC IT MCPS</h1>
+    <h2 style = "float: right;">Beirut, Lebanon</h2>
+</div>
+<div style = "overflow: hidden;">
+  <i style = "float: left;">Software Engineer Trainee</i>
+  <p style = "float: right;">July 2015 – August 2016</p>
+</div>
+<ul>
+<li>Developed Client Side application while learning and applying the latest development techniques</li>
+<li>Practiced new Software languages and libraries (HTML5, css3, Java Script, JQuery, and Bootstrap)</li>
+<li>Developed communication skills, handled a presentation</li>
+<li>Experienced server-side web programming  development (C#, Knockout, Ajax, JSON, Ado.Net Framework, .NET MVC Framework and Enterprise libraries)</li>
+<li>Provided value on a real world application project and the different steps taken</li>
+</ul>
+<br />
+
+</div>
+
+
+<div id="section3" class="container-fluid">
+    <br/><h1 style = "color: #c7254e;">Skills</h1><br/><br/>
+
+<table style="width:100%; height: 100%">
+  <tr>
+    <th class = "skillsImageA"></th>
+    <th class = "skillsImageB"></th> 
+    <th class = "skillsImageC"></th>
+  </tr>
+  <tr>
+    <th class = "skillsImage2A"></th>
+    <th class = "skillsImage2B"></th>
+  </tr>
+  
+</table>
+</div>
+
+<div id="section4" class="container-fluid">
+    <br/><h1 style = "color: #c7254e;">Projects</h1>
+    <i>The below are projects done at university</i><br/><br/>
+    
+  
+    <img src="Project1.png" id = "project1" style="width:45%;height: 50%;padding-left: 3%;" align="left">
+  
+    <div style="padding-left: 49%">
+        <h3 style = "color: #c7254e;">Online Shopping web Application</h3>
+        <i>Member</i><br />
+        <ul>
+          <li>Team size: 1</li>
+          <li>Languages: html, css3, JavaScript, php, xml, json, Ajax</li>
+          <li>Database: MySql</li>
+          <li>Project description: This project enables users (women/men/kids) to view shopping items (clothes/makeup/shoes/
+              accessories...) from different shopping stores mixed. The items (read from database) can be sorted by type/ color... and are viewed in the form of list images. Users can order the items and admins can add items and view the ordered
+              items depending on the store.</li>
+        </ul>
+    </div>
+    <br style="clear: both;">
+    <br /><br />
+    <img src="Project2.png" id = "project1" style="width:45%;height: 50%;padding-left: 3%" align="left">
+  
+    <div style="padding-left: 49%">
+        <h3 style = "color: #c7254e;">TouristGo Android Application</h3>
+        <i>Member</i><br />
+        <ul>
+          <li>Team size: 3</li>
+          <li>Languages: Java, XML</li>
+          <li>Database: Firebase</li>
+          <li>Project Description: TouristGo is an android mobile application that enables users (tourists of cities and places) to be
+              guided to the “Best View” location for taking picture in a city. By Making use of geo-data (google maps) a tourist can either 
+              plan for his trip or choose a trip from the suggested trips.</li>
+        </ul>
+    </div>
+
+    <br style="clear: both;">
+    <br /><br /><br />
+    <img src="Project3.png" id = "project1" style="width:45%;height: 50%;padding-left: 3%" align="left">
+  
+    <div style="padding-left: 49%">
+        <h3 style = "color: #c7254e;">Restaurants Online Ordering Web Application</h3>
+        <i>Member</i><br />
+        <ul>
+          <li>Team size: 2</li>
+          <li>Languages: HTML 5, CSS 3, JavaScript, PHP, XML, JSON, AJAX.</li>
+          <li>Database: MySQL</li>
+          <li>Project Description: This project is a web project application that enables users to order food online. A user can login, view
+            or search for the different restaurants, view the menus and order his food.</li>
+        </ul>
+    </div>
+    <br style="clear: both;">
+    <br />
+</div>
+
+<script>
+$(document).ready(function(){
+  // Add scrollspy to <body>
+  $('body').scrollspy({target: ".navbar", offset: 50});   
+
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>
+
+</body>
+</html>
+
+
+
+<!--
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sirine Baba Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container {
+  background-color: #f1f1f1;
+  padding: 0px;
+  text-align: center;
+}
+
+#header {
+  padding: 0% 16px;
+  background: black;
+  color: #f1f1f1;
+}
+
+#content {
+  padding-top: 20%;
+  padding-left: 30%;
+  background-image: url("computer.jpg");
+  color: white;
+  font-family: Arial;
+  font-size: 35px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 102px;
+}
+
+.header1{
+    float: right; 
+    width: 16%; 
+}
+
+.header2{
+    float: right; 
+    width: 13%; 
+}
+
+</style>
+</head>
+<body onload = "getSize()"">
+
+<div class="top-container">
+
+</div>
+
+<div id="header" id="myHeader">
+    <h2 class="header1">Contact</h2>
+    <h2 class="header1">Projects</h2>
+    <h2 class="header2">Skills</h2>
+    <h2 class="header1">Experience</h2>
+    <h2 class="header2">Home</h2>
+</div>
+
+<div id="content">
+  <p>My Name is Sirine Baba</p>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } 
+}
+
+function getSize() {
+var w = window.innerWidth
+|| document.documentElement.clientWidth
+|| document.body.clientWidth;
+
+var h = window.innerHeight
+|| document.documentElement.clientHeight
+|| document.body.clientHeight;
+
+var hh = h * 10/100;
+var ww = h - 4*hh;
+document.getElementById("content").style.height = (ww+"px");
+document.getElementById("header").style.height = (hh+"px");
+}
+
+
+</script>
+
+</body>
+</html>
+-->
+ 
+
